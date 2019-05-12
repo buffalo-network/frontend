@@ -65,7 +65,7 @@
 #return-to-commons {
   position: fixed;
   bottom: 5vh;
-  width: 80vw;
+  width: 90%;
   z-index: 100;
 }
 
