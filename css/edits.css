@@ -1,0 +1,17 @@
+.fa{
+  color:red;
+  background:red;
+  border-radius:50%;
+  animation:op 3s ease infinite;
+}
+@keyframes op{
+0%{
+  opacity:0;
+}
+50%{
+  opacity:1;
+}
+100%{
+  opacity:0;
+}
+}
