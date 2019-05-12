@@ -139,3 +139,20 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #F14635), color-stop(0.22, #FF7F3C), color-stop(0.39, #FCB544), color-stop(0.6, #00BF71), color-stop(0.8, #397EE7), color-stop(1, #A361E5) );
+
+background-image: gradient( linear, left top, right top, color-stop(0, #F14635), color-stop(0.22, #FF7F3C), color-stop(0.39, #FCB544), color-stop(0.6, #00BF71), color-stop(0.8, #397EE7), color-stop(1, #A361E5) );
+
+color:transparent;
+
+border: 2px dotted white;
+
+-webkit-background-clip: text;
+
+background-clip: text;
+
+font-size: 3em;
+
+}

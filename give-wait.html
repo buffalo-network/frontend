@@ -1,0 +1,74 @@
+ 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Buffalo Network</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <!-- Bulma Version 0.7.4-->
+    <link rel="stylesheet" href="css/bulma.css" />
+    <link rel="stylesheet" type="text/css" href="css/edits.css" />
+    <link rel="stylesheet" type="text/css" href="css/give-wait.css">
+
+</head>
+<body>
+
+<section class="section">
+	<div class="container">
+		<div class="columns">
+			<div class="column">
+				<svg>
+				  <g>
+				    <path d="M 50,100 A 1,1 0 0 1 50,0"/>
+				  </g>
+				  <g>
+				    <path d="M 50,75 A 1,1 0 0 0 50,-25"/>
+				  </g>
+				  <defs>
+				    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+				      <stop offset="0%" style="stop-color:#FF56A1;stop-opacity:1" />
+				      <stop offset="100%" style="stop-color:#FF9350;stop-opacity:1" />
+				    </linearGradient>
+				  </defs>
+				</svg>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- <section class="section">
+	<div class="container">
+		<div class="columns">
+			<div class="column has-text-centered">
+
+				<p class="title">
+					Your item is being added to the commons...
+				</p>
+
+			</div>
+		</div>
+	</div>
+</section> -->
+
+<script>
+function delayRedirect(){
+    // document.getElementById('delayMsg').innerHTML = 'Please wait you\'ll be redirected after <span id="countDown">5</span> seconds....';
+    var count = 4;
+    setInterval(function(){
+        count--;
+        // document.getElementById('countDown').innerHTML = count;
+        if (count == 0) {
+            window.location = 'give-success.html'; 
+        }
+    },1000);
+}
+
+delayRedirect();
+</script>
+
+</body>
+</html>
