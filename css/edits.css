@@ -1,4 +1,4 @@
-.fa{
+#connected {
   color:red;
   background:red;
   border-radius:50%;
@@ -33,6 +33,34 @@
 #explore-commons {
   position: absolute;
   left: 25%;
-  bottom: 20px;
+  bottom: 25px;
 
 }
+
+.button:hover {
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease 0s;
+  /*cursor: pointer;*/
+  outline: none;
+}
+
+.shadow {
+  background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.is-horizontal-center {
+  justify-content: center;
+}
+
+/*#footprint {
+  position: relative;
+  left: 20%;
+  top: 5%;
+  width: 150%;
+}*/

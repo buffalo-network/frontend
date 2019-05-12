@@ -26,14 +26,14 @@
 	  <!-- Right side -->
 	  <div class="level-right">
 	    <p class="level-item">
-	    	<i class="fa fa-circle-o text-red"></i>
+	    	<i id="connected" class="fa fa-circle-o text-red"></i>
 	    	<p>Not Connected to MetaMask</p>
 	    </p>
 	  </div>
 	</nav>
 </div>
 
-<!-- MAP -->
+<!-- MAP & EXPLORE-->
 <section class="section">
 	<div class="container">
 		<div class="columns">
@@ -44,13 +44,50 @@
 		</div>
 
 		<!-- EXPLORE -->
-		<nav class="level is-mobile">
+		<nav class="level is-mobiles">
 		  <div class="level-item has-text-centered">
 		    <div>
-		      <a href="dash.html" class="button is-rounded" id="explore-commons">Explore the Commons</a>
+		      <a href="dash.html" class="button shadow is-medium is-rounded" id="explore-commons">Explore the Commons</a>
 		    </div>
 		  </div>
 		</nav>
+	</div>
+</section>
+
+<section class="section">
+	<div class="container">
+		<div class="columns is-vcentered is-mobile">
+			<div class="column is-4 is-offset-2">
+				<p class="subtitle">
+					Your Footprint <i class="fa fa-question-circle"></i>
+				</p>
+				<!-- <p>
+					Give so you can take. Return items you take and give new items to maintain your ability to take from the commons.
+				</p> -->
+			</div>
+			<div class="column is-4">
+				<img id="footprint" src="media/footprint.png">
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- BUTTONS -->
+<section class="section">
+	<div class="container">
+		<div class="columns is-mobile">
+			<div class="column">
+				<a href="#" class="button is-rounded is-primary is-large is-fullwidth">Give</a>
+			</div>
+			<div class="column">
+				<a href="#" class="button is-rounded is-primary is-large is-fullwidth">Return</a>
+			</div>
+		</div>
+		<div class="columns">
+			<div class="column">
+				<a href="#" class="button is-rounded is-warning is-large is-fullwidth">Take</a>
+			</div>
+		</div>
 	</div>
 </section>
 
