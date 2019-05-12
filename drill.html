@@ -6,12 +6,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Buffalo Network</title>
+    <title>Your Power Drill</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <!-- Bulma Version 0.7.4-->
     <link rel="stylesheet" href="css/bulma.css" />
     <link rel="stylesheet" type="text/css" href="css/edits.css" />
+    <link rel="stylesheet" type="text/css" href="css/bulma-switch.css">
 
 </head>
 <body>
@@ -33,69 +34,77 @@
 	</nav>
 </div>
 
-<!-- MAP & EXPLORE-->
-<section class="section">
-	<div class="container">
-		<div class="columns">
-			<div class="map-responsive">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d386950.6511603643!2d-73.70231446529533!3d40.738882125234106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNueva+York!5e0!3m2!1ses-419!2sus!4v1445032011908" frameborder="0" style="border:0"></iframe>
-			</div>
-
-		</div>
-
-		<!-- EXPLORE -->
-		<nav class="level is-mobiles">
-		  <div class="level-item has-text-centered">
-		    <div>
-		      <a href="dash.html" class="button shadow is-medium is-rounded" id="explore-commons">Explore the Commons</a>
-		    </div>
-		  </div>
-		</nav>
-	</div>
-</section>
-
-<section class="section">
-	<div class="container">
-		<div class="columns is-vcentered is-mobile">
-			<div class="column is-4 is-offset-2">
-				<p class="subtitle">
-					Your Footprint <i class="fa fa-question-circle"></i>
-				</p>
-				<!-- <p>
-					Give so you can take. Return items you take and give new items to maintain your ability to take from the commons.
-				</p> -->
-			</div>
-			<div class="column is-4">
-				<img id="footprint" src="media/footprint.png">
-			</div>
-		</div>
-	</div>
-</section>
-
-<!-- BUTTONS -->
 <section class="section">
 	<div class="container">
 		<div class="columns is-mobile">
 			<div class="column">
-				<a href="#" class="button is-rounded is-primary is-large is-fullwidth">Give</a>
-			</div>
-			<div class="column">
-				<a href="return.html" class="button is-rounded is-primary is-large is-fullwidth">Return</a>
-			</div>
-		</div>
-		<div class="columns">
-			<div class="column">
-				<a href="#" id="take-button" class="button is-rounded is-warning is-large is-fullwidth">Take</a>
+				<img src="media/hammer.png" class="settings-picture">
 			</div>
 		</div>
 	</div>
 </section>
 
+<section class="section">
+	<div class="container">
+		<div class="columns">
+			<div class="column">
+				
 
-<!-- <section class="section" >
-	
-</section> -->
+				<fieldset disabled>
+				  
+				<div class="field">
+				  <label class="label">Item Category</label>
+				  <div class="control">
+				    <input class="input" type="text" placeholder="Powerdrill">
+				  </div>
+				</div>
 
+				<div class="field">
+				  <label class="label">Item Name</label>
+				  <div class="control">
+				    <input class="input" type="email" placeholder="Kolbalt 24x Max">
+				  </div>
+				</div>
+
+				</fieldset>
+				<br>
+
+				<div class="field">
+					<label class="label">Make available to commons</label>
+					<div class="control">
+						
+					</div>
+				</div>
+
+
+				<label class="switch">
+				  <input type="checkbox">
+				  <span class="slider round"></span>
+				</label>
+
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section">
+	<div class="container">
+		<div class="columns">
+			<!-- <div class="column">
+				<a href="return.html" class="button is-rounded is-primary is-large is-fullwidth">Return Item</a>
+			</div> -->
+			<div class="column">
+				<a href="return.html" class="button is-rounded is-primary is-large is-fullwidth">Back to your possesions</a>
+			</div>
+		</div>
+		<!-- <div class="columns">
+			<div class="column">
+				<a href="#" id="take-button" class="button is-rounded is-warning is-large is-fullwidth">Take</a>
+			</div>
+		</div> -->
+	</div>
+</section>
 
 </body>
 </html>
