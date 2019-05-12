@@ -19,7 +19,7 @@
 .map-responsive{
     overflow:hidden;
     padding-bottom:56.25%;
-    position:relative;
+    /*position:relative;*/
     height:0;
 }
 .map-responsive iframe{
@@ -31,9 +31,9 @@
 }
 
 #explore-commons {
-  position: absolute;
-  left: 25%;
-  bottom: 25px;
+  position: relative;
+  /*left: 0%;*/
+  bottom: 2vh;
 
 }
 
