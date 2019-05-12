@@ -58,9 +58,17 @@
   justify-content: center;
 }
 
-/*#footprint {
-  position: relative;
-  left: 20%;
-  top: 5%;
-  width: 150%;
-}*/
+#take-button {
+  color: white;
+}
+
+#return-to-commons {
+  position: fixed;
+  bottom: 5vh;
+  width: 80vw;
+  z-index: 100;
+}
+
+.return-items {
+  margin-bottom: 20px;
+}
