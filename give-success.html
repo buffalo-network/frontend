@@ -16,12 +16,32 @@
 </head>
 <body>
 
+<!-- Side Drawer -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <img src="media/MARX.png">
+  <span>Karl Marx</span>
+  <span style="font-size: 1em;">
+  	Krugplein 27, 1011CR
+  	Amsterdam, NL
+  </span>
+  <br><br>
+  <a href="dash.html">Your Dashboard</a>
+  <a href="#">Account</a>
+  <a href="#">About Buffalo</a>
+  <a href="#">Get Help</a>
+</div>
+
+
+
 <!-- METAMASK CONNECTION -->
-<div class="container" style="padding: 10px;">
+<div class="container top-menu" style="padding: 10px;">
 	<!-- Main container -->
 	<nav class="level is-mobile">
 	  <!-- Left side -->
-	  <div class="level-left"></div>
+	  <div class="level-left">
+	  	<i onclick="openNav()" id="menu-burger" class="fas fa-bars"></i>
+	  </div>
 
 	  <!-- Right side -->
 	  <div class="level-right">
@@ -67,21 +87,7 @@
 	</div>
 </section>
 
-<!-- <script>
-function delayRedirect(){
-    // document.getElementById('delayMsg').innerHTML = 'Please wait you\'ll be redirected after <span id="countDown">5</span> seconds....';
-    var count = 5;
-    setInterval(function(){
-        count--;
-        // document.getElementById('countDown').innerHTML = count;
-        if (count == 0) {
-            window.location = 'dash.html'; 
-        }
-    },1000);
-}
-
-delayRedirect();
-</script> -->
+<script type="text/javascript" src="js/drawer.js"></script>
 
 </body>
 </html>

@@ -16,12 +16,32 @@
 </head>
 <body>
 
+<!-- Side Drawer -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <img src="media/MARX.png">
+  <span>Karl Marx</span>
+  <span style="font-size: 1em;">
+  	Krugplein 27, 1011CR
+  	Amsterdam, NL
+  </span>
+  <br><br>
+  <a href="dash.html">Your Dashboard</a>
+  <a href="#">Account</a>
+  <a href="#">About Buffalo</a>
+  <a href="#">Get Help</a>
+</div>
+
+
+
 <!-- METAMASK CONNECTION -->
-<div class="container" style="padding: 10px;">
+<div class="container top-menu" style="padding: 10px;">
 	<!-- Main container -->
 	<nav class="level is-mobile">
 	  <!-- Left side -->
-	  <div class="level-left"></div>
+	  <div class="level-left">
+	  	<i onclick="openNav()" id="menu-burger" class="fas fa-bars"></i>
+	  </div>
 
 	  <!-- Right side -->
 	  <div class="level-right">
@@ -47,7 +67,7 @@
 		<nav class="level is-mobiles">
 		  <div class="level-item has-text-centered">
 		    <div>
-		      <a href="dash.html" class="button shadow is-medium is-rounded" id="explore-commons">Explore the Commons</a>
+		      <a href="explore-commons.html" class="tag shadow is-medium" id="explore-commons">Explore the Commons</a>
 		    </div>
 		  </div>
 		</nav>
@@ -85,17 +105,13 @@
 		</div>
 		<div class="columns">
 			<div class="column">
-				<a href="#" id="take-button" class="button is-rounded is-warning is-large is-fullwidth">Take</a>
+				<a href="take.html" id="take-button" class="button is-rounded is-warning is-large is-fullwidth">Take</a>
 			</div>
 		</div>
 	</div>
 </section>
 
 
-<!-- <section class="section" >
-	
-</section> -->
-
-
+<script type="text/javascript" src="js/drawer.js"></script>
 </body>
 </html>

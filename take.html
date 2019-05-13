@@ -6,13 +6,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Your Power Drill</title>
+    <title>Buffalo Network</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <!-- Bulma Version 0.7.4-->
     <link rel="stylesheet" href="css/bulma.css" />
     <link rel="stylesheet" type="text/css" href="css/edits.css" />
-    <link rel="stylesheet" type="text/css" href="css/bulma-switch.css">
 
 </head>
 <body>
@@ -56,52 +55,19 @@
 
 <section class="section">
 	<div class="container">
-		<div class="columns is-mobile">
-			<div class="column">
-				<img src="media/addphoto.png" class="settings-picture">
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="section">
-	<div class="container">
-		<div class="columns">
-			<div class="column">
+		<div class="columns has-text-centered">
+			<div class="column is-8 is-offset-2">
 				
-
-				<fieldset>
-				  
-				<div class="field">
-				  <label class="label">Item Category</label>
-				  <div class="control">
-				    <input class="input" type="text" placeholder="Powerdrill">
-				  </div>
+				<div class="field is-grouped">
+				  <p class="control is-expanded">
+				    <input class="input" type="text" placeholder="What do you need?">
+				  </p>
+				  <p class="control">
+				    <a class="button is-info">
+				      Search
+				    </a>
+				  </p>
 				</div>
-
-				<div class="field">
-				  <label class="label">Item Name</label>
-				  <div class="control">
-				    <input class="input" type="email" placeholder="Kolbalt 24x Max">
-				  </div>
-				</div>
-
-				</fieldset>
-				<br>
-
-				<!-- <div class="field">
-					<label class="label">Make available to commons</label>
-					<div class="control">
-						
-					</div>
-				</div>
-
-
-				<label class="switch">
-				  <input type="checkbox">
-				  <span class="slider round"></span>
-				</label> -->
-
 
 			</div>
 		</div>
@@ -111,15 +77,33 @@
 <section class="section">
 	<div class="container">
 		<div class="columns">
-			<div class="column">
-				<a href="give-wait.html" class="button is-rounded is-primary is-large is-fullwidth">Register to the Commons</a>
-				<div class="column">
-				<a href="dash.html" class="button is-text is-medium is-fullwidth">Cancel and return to the dashboard.</a>
+			<div class="column has-text-centered take-space">
+				
+				<img class="take-picture" src="media/take-dots.svg">
+
 			</div>
+		</div>
+		<div class="columns">
+			<div class="column">
+				<p class="subtitle has-text-centered">
+					Search for items currently available in the commons and request delivery.
+				</p>
+
+				<!-- <a href="dash.html" class="button shadow is-rounded is-primary is-large is-fullwidth">Return to Dashboard</a> -->
 			</div>
 		</div>
 	</div>
 </section>
+
+<section class="section">
+		<div class="container">
+			<div class="columns">
+				<div class="column">
+					<a href="dash.html" id="return-to-commons" class="button is-rounded is-text is-medium">Return to your Dashboard</a>
+				</div>
+			</div>
+		</div>
+	</section>
 
 <script type="text/javascript" src="js/drawer.js"></script>
 
